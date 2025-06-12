@@ -18,8 +18,6 @@ def pregunta_01():
     import pandas as pd
 
     tbl0 = pd.read_csv("files\input\\tbl0.tsv", sep="\t")
-    tbl1 = pd.read_csv("files\input\\tbl1.tsv", sep="\t")
-    tbl2 = pd.read_csv("files\input\\tbl2.tsv", sep="\t")
 
     rows = tbl0.shape[0]
     return rows

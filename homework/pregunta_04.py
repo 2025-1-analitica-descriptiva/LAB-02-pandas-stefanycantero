@@ -25,5 +25,3 @@ def pregunta_04():
     tbl0 = pd.read_csv("files\input\\tbl0.tsv", sep="\t")
     total = tbl0.groupby('c1')['c2'].mean()
     return total
-
-print(pregunta_04())
