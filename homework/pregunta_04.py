@@ -22,6 +22,6 @@ def pregunta_04():
     """
     import pandas as pd
 
-    tbl0 = pd.read_csv("files\input\\tbl0.tsv", sep="\t")
+    tbl0 = pd.read_csv("files/input/tbl0.tsv", sep="\t")
     total = tbl0.groupby('c1')['c2'].mean()
     return total

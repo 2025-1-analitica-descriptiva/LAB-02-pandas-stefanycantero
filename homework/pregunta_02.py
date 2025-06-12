@@ -16,7 +16,7 @@ def pregunta_02():
     """
     import pandas as pd
 
-    tbl0 = pd.read_csv("files\input\\tbl0.tsv", sep="\t")
+    tbl0 = pd.read_csv("files/input/tbl0.tsv", sep="\t")
 
     cols = tbl0.shape[1]
     return cols    
